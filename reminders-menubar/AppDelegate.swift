@@ -41,7 +41,7 @@ class AppDelegate: NSObject, NSApplicationDelegate {
     }
     
     private func configurePopover() {
-        popover.contentSize = NSSize(width: 340, height: 460)
+        popover.contentSize = NSSize(width: 800, height: 800)
         popover.animates = false
         
         if RemindersService.shared.authorizationStatus() == .authorized {

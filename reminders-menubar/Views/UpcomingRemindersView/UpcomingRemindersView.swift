@@ -2,7 +2,7 @@ import SwiftUI
 
 struct UpcomingRemindersView: View {
     @EnvironmentObject var remindersData: RemindersData
-    
+
     var body: some View {
         VStack(alignment: .leading) {
             UpcomingRemindersTitle()
